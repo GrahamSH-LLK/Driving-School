@@ -1,0 +1,3 @@
+mkdocs-glightbox
+mkdocs-material
+mkpdfs2-mkdocs
