@@ -41,7 +41,7 @@ plugins:
   - glightbox:
          auto_caption: true
   - search
-  - privacy
+#  - privacy
 #  - mkpdfs:
 #      design: docs/stylesheets/pdf.css
 
