@@ -1,0 +1,80 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,300..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://edwardtufte.github.io/et-book/et-book.css");
+
+.md-typeset figure img {
+  margin: 0 auto;
+}
+.md-typeset blockquote {
+  font-style: italic;
+}
+.md-typeset blockquote p:first-of-type:before {
+  content: '"';
+}
+.md-typeset blockquote p:last-of-type:after {
+  content: '"';
+}
+h1 {
+  font-size: 3.2em;
+  line-height: 1;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+  color: var(--md-default-fg-color) !important;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: italic;
+}
+html > body[data-md-color-scheme]:not([data-md-color-scheme="slate"]) {
+  /* this selector makes me very sad*/
+  --md-default-bg-color: #fffff8 !important;
+  --md-default-fg-color: #111111;
+}
+html > body {
+  --md-text-font: "et-book", serif;
+}
+.md-typeset {
+  font-size: 0.9rem;
+  & .admonition {
+    font-size: 0.74rem;
+  }
+}
+
+.md-nav {
+  font-size: 0.8rem;
+}
+.md-grid {
+  max-width: 63rem;
+}
+
+figure:has(img[flex]) {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  & figcaption {
+    max-width: revert;
+    margin-top: 0;
+    margin-left: 1rem;
+    &:first-child {
+      margin-left: 0;
+      margin-right: 1rem;
+    }
+  }
+}
+img[flex] {
+  min-width: 400px;
+}
+@media (max-width: 800px) {
+  figure:has(img[flex]) {
+    flex-direction: column;
+    & figcaption {
+      margin-right: 0;      
+      margin-top: 1rem;
+      margin-left: 0;
+    }
+  }
+}

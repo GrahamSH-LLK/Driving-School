@@ -1,0 +1,83 @@
+site_name: Driving School Notes
+site_url: https://driving.grahamsh.com/
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: "#"
+      toc_depth: 2
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+
+
+extra_css:
+  - stylesheets/extra.css
+plugins:
+  - glightbox:
+         auto_caption: true
+  - search
+  - privacy
+#  - mkpdfs:
+#      design: docs/stylesheets/pdf.css
+
+theme:
+  features:
+      - navigation.footer
+      - search.suggest
+      - search.highlight
+
+  name: material
+#  font:
+#    text: "ET Book"
+#     text: Playfair Display
+  palette: 
+    - media: "(prefers-color-scheme)"
+      primary: amber
+      accent: amber
+
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: amber
+      accent: amber
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: amber
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
