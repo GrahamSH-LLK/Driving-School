@@ -229,4 +229,8 @@ Some controls, like A/C & Heat should be set before starting the vehicle, so you
 
 ## Parking Brake
 
-Drivers are required by law to fully engage the parking brake every time the vehicle is parked.
+Drivers are required by law to fully engage the parking brake every time the vehicle is parked. The parking brake is mean to ensure the vehicle will remain motionless when parked.
+
+Some parking brakes are now electronic, and can be engaged by pressing a button. Others are still mechanical, and require pulling a lever or pushing a pedal.
+
+See your owner's manual for details on how to engage the parking brake in your vehicle.
