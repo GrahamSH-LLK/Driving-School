@@ -1,6 +1,8 @@
 
 ## Pre drive inspection
+
 ✨ Every Time ✨
+
 1. Walkaround
 	- Check underneath, behind, in front, and in wheel wells
 2. Check path of travel 
@@ -8,12 +10,12 @@
 3. Check under vehicle for leaks
 	- Water is fine, but other fluids are not
 4. Visual check of tires
-	1. Odd positioning, suspension, or alignment issues
-	2. Also where tires are pointing
-	3. Bulges, objects stuck in 
+	- Odd positioning, suspension, or alignment issues
+	- Also where tires are pointing
+	- Bulges, objects stuck in 
 5. Damage to body, windows, mirrors, lights
-	1. Windows are light, clean, free of snow or ice
-	2. Check windshield wipers for damage
+	- Windows are light, clean, free of snow or ice
+	- Check windshield wipers for damage
 
 ## Blind Spots
 - Places you cannot see outside of your vehicle
